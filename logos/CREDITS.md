@@ -1,5 +1,10 @@
 # Logos tiers — provenance et licence
 
+> **« Prévues » est parti le 26/09/2026.** Les intégrations sont **faites**
+> (décision du 25/09/2026) : ce fichier ne pouvait pas continuer à dire le
+> contraire de ce que les dix-sept pages de connecteur affirment, d'autant
+> qu'il est servi à l'adresse publique et que `/mentions-legales` le cite.
+
 Les logos de `public/logos/` sont ceux que la maquette
 `~/Downloads/identit-web-gojo/project/Gojo Home.dc.html` appelle. Ils sont
 **rapatriés en local** le 22/09/2026 : le site n'appelle aucune ressource
@@ -12,7 +17,7 @@ Collection [Simple Icons](https://simpleicons.org/), dépôt
 <https://github.com/simple-icons/simple-icons>. Les fichiers SVG sont publiés
 sous **CC0 1.0 Universal** ; les marques et logos eux-mêmes restent la
 propriété de leurs détenteurs respectifs et sont utilisés ici à titre
-d'identification des intégrations prévues.
+d'identification des intégrations.
 
 | Fichier | Marque | Source appelée par la maquette |
 |---|---|---|
@@ -75,6 +80,6 @@ reconstitué à la main. Aux tailles servies (41 px de côté au plus grand
 palier), un PNG de 180 à 256 px reste net, y compris en densité double.
 
 Ces logos sont la propriété de leurs détenteurs respectifs et sont utilisés ici
-à titre d'identification des intégrations prévues, comme les dix-neuf autres.
+à titre d'identification des intégrations, comme les dix-neuf autres.
 
 Téléchargés le 22/09/2026 par `curl`, sans retouche.
