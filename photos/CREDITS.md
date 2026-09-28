@@ -237,3 +237,67 @@ Empreintes SHA-256 des fichiers servis :
 
 - `reseaux-terrasse-soir.webp` : `f6d0eaf1a6ce914b804578f79490e5bb971cc745e039f06fdf005806bc632195`
 <!-- reseaux:fin -->
+
+<!-- assistant:debut -->
+## La page assistant IA (28/09/2026)
+
+Une photo nouvelle pour le hero de la page `/assistant-ia` : un homme dans une salle de restaurant encore vide, avant le service, qui écrit sur son téléphone — le patron qui dit sa soirée à son assistant IA. **Aucune image générée.** Licence vérifiée sur la page de la photo le 28/09/2026 : **licence Unsplash** (ce n'est pas une photo Unsplash+ : le lien public `images.unsplash.com` la sert). Elle n'était pas déjà présente sur le site. Rapatriée une fois, floutée pour qu'**aucune enseigne ni aucun nom de personne ne se lise**, réencodée en WebP (qualité 78, 1 800 px de large), servie en local par `next/image`. Le reste de la page est dessiné (le dashboard, le carnet) ou reprend les portraits de `public/photos/contacts/` et les logos de `public/logos/`.
+
+| Fichier | Où | Ce qu'on voit | Auteur | Profil | Page | Source | Licence |
+|---|---|---|---|---|---|---|---|
+| `assistant-patron-telephone.webp` | hero | Un homme en chemise à carreaux, debout près d'une fenêtre, écrit sur son téléphone à côté d'une table dressée (verres, serviettes, bougie), dans une salle de restaurant à San Francisco — publiée le 08/08/2026 ; rapatriée en 2 400 × 3 599 et réduite à 1 800 × 2 699, sans recadrage ; floutés : l'enseigne d'une chaîne de sandwicherie lisible dans la rue par la fenêtre, et les deux marque-places de la table, qui portaient des noms de personnes | Peter Muniz | https://unsplash.com/@petepxl | https://unsplash.com/photos/eUCBbB7qtB0 | https://images.unsplash.com/photo-1786209676822-f7a1b7b180e9 | Unsplash |
+
+Empreinte SHA-256 du fichier servi :
+
+- `assistant-patron-telephone.webp` : `bc970d6884f6f4761fa1af7f2af37f3e1829dea256d0499dc2cd23742d8d3765`
+<!-- assistant:fin -->
+
+<!-- contacts:debut -->
+## La page contacts et campagnes (28/09/2026)
+
+Deux photos nouvelles pour la page `/contacts-et-campagnes` : une tablée qui trinque, téléphones en main, pour l’affiche du hero, et un joueur qui sourit à son téléphone dans un bar pour l’écran de la case de consentement. **Aucune image générée.** Licence vérifiée le 28/09/2026 sur les données de la page de chaque photo (l’API publique d’Unsplash, `napi/photos/<id>` : `premium: false`, `plus: false`) : **licence Unsplash** pour les deux, aucune n’est une photo Unsplash+ (le lien public `images.unsplash.com` les sert). Aucune des deux n’était déjà présente sur le site. Rapatriées une fois, floutées là où une marque se lisait, réencodées en WebP (qualité 78, 1 800 px de large), servies en local par `next/image`. Écartées pour la même raison : une table vue du dessus couverte de paquets de cigarettes et de menus à l’enseigne d’un bar.
+
+| Fichier | Où | Ce qu'on voit | Auteur | Profil | Page | Source | Licence |
+|---|---|---|---|---|---|---|---|
+| `contacts-clients-trinquent.webp` | affiche du hero | Autour d’une table, des amis trinquent, bouteille et chopes de bière levées, deux d’entre eux téléphone en main au fond — publiée le 26/07/2026 ; 1 800 × 1 200 ; floutés : l’étiquette de la bouteille (une marque de soda et sa ville), deux canettes derrière les verres | tommao wang | https://unsplash.com/@tommaomaoer | https://unsplash.com/photos/HHLHPtNj2zA | https://images.unsplash.com/photo-1785033496758-c4b1259cca06 | Unsplash |
+| `contacts-joueur-telephone.webp` | le consentement (scène du téléphone) | Dans un bar aux murs de bois peints, un homme à lunettes sourit à son téléphone, un verre de bière posé devant lui — publiée le 26/06/2024 (« Picture of myself sitting in a bar », dit l’auteur) ; 1 800 × 1 089 ; flouté : le logo imprimé sur le verre de bière | Hoite Prins | https://unsplash.com/@hoite | https://unsplash.com/photos/6t36nT0H-eY | https://images.unsplash.com/photo-1719413251389-57afd5a43a9f | Unsplash |
+
+Empreintes SHA-256 des fichiers servis :
+
+- `contacts-clients-trinquent.webp` : `063ddb2a1f6cd37e2de297e540c800cca1067ed42b9245a9e94b836baec3cbcb`
+- `contacts-joueur-telephone.webp` : `07ba76ecee1ab33624a103bb95ac2da9ae89f3153cd4740e057422b050920637`
+
+Les portraits de la carte des contacts, du verre du hero et de la fiche sont ceux de `contacts/` (plus haut), sous des noms inventés.
+<!-- contacts:fin -->
+
+<!-- fidelite:debut -->
+## La page fidélité et récompenses (28/09/2026)
+
+Deux photos nouvelles pour la page `/fidelite-et-recompenses` : une planche de bières servie sur une table de bar pour l'affiche du hero, et une pinte tendue par-dessus le comptoir pour le visuel « la récompense remise au comptoir ». **Aucune image générée.** Licence vérifiée sur la page de chaque photo le 28/09/2026 : **licence Pexels** pour les deux. Aucune des deux n'était déjà présente sur le site. Rapatriées une fois, retouchées pour qu'**aucune marque ni aucune enseigne ne se lise**, réencodées en WebP (qualité 78, 1 800 px de large), servies en local par `next/image`. Écartées : des photos de toasts déjà proches de celles de la page quiz, un comptoir aux étiquettes de bouteilles lisibles.
+
+| Fichier | Où | Ce qu'on voit | Auteur | Profil | Page | Source | Licence |
+|---|---|---|---|---|---|---|---|
+| `fidelite-tournee-servie.webp` | affiche du hero | Quatre verres de bière de couleurs différentes servis sur une planche en bois, sur la table d'un bar aux guirlandes allumées, à Sacramento (États-Unis) — publiée le 07/08/2024 ; les poignées des tireuses du fond sont floues d'origine, aucune ne se lit ; redimensionnée de 5 933 × 4 278 à 1 800 × 1 298, sans recadrage | Donovan Kelly | https://www.pexels.com/@donovan-kelly-110228397/ | https://www.pexels.com/photo/a-tray-of-beer-on-a-wooden-table-27623565/ | https://images.pexels.com/photos/27623565/pexels-photo-27623565.jpeg | Pexels |
+| `fidelite-remise-au-comptoir.webp` | la récompense remise au comptoir (fond) | Au comptoir, un barman tend une pinte de bière par-dessus les tireuses à la main d'un client, devant une rangée de bouteilles — publiée le 25/07/2018 ; redimensionnée de 6 904 × 4 604 à 1 800 × 1 200, sans recadrage ; effacé : le logo imprimé sur le t-shirt du barman, repeint du bleu du tissu dans ses seules limites (ni la main ni la tireuse ne sont touchées) ; les étiquettes des bouteilles sont floues d'origine | ELEVATE | https://www.pexels.com/@elevate/ | https://www.pexels.com/photo/man-handing-a-person-a-glass-of-beer-1267323/ | https://images.pexels.com/photos/1267323/pexels-photo-1267323.jpeg | Pexels |
+
+Empreintes SHA-256 des fichiers servis :
+
+- `fidelite-tournee-servie.webp` : `c430c2dbb516ed4e00e4953bda848b7c3487ede18f483b8493acec251af68287`
+- `fidelite-remise-au-comptoir.webp` : `6e2015b317f1c10706e55e10083345280d111ff5d773272768e2b8011ca0a4f9`
+<!-- fidelite:fin -->
+
+<!-- ia:debut -->
+## La page dans Claude et ChatGPT (28/09/2026)
+
+Une photo nouvelle pour la page `/dans-claude-et-chatgpt` refaite au soin de `/football` : un homme à son ordinateur portable, au comptoir d’un bar, sous le verre du hero (Gojo branché, la demande de la soirée de jeudi, ce qui est préparé). **Aucune image générée.** Licence vérifiée sur la page de la photo le 28/09/2026 : **licence Unsplash** (« Utilisation gratuite sous la Licence Unsplash » ; ce n’est pas une photo Unsplash+ : l’API publique d’Unsplash dit `premium: false`, `plus: false`, et le lien public `images.unsplash.com` la sert). Elle n’était pas déjà présente sur le site.
+
+Rapatriée une fois, réencodée en WebP (qualité 78, 1 600 × 2 400, la source faisant 4 128 × 6 192), servie en local par `next/image`. **Aucun nom de club, de marque, d’enseigne ni de personne ne s’y lit** : les étiquettes des bouteilles des étagères sont floues à la prise de vue, l’écran de l’ordinateur (une application sombre et, en bas, une rangée d’icônes minuscules) ne porte aucun mot lisible, et le couvercle de l’ordinateur n’est pas dans le cadre ; aucun recadrage ni flou ajouté. Elle a été choisie contre d’autres photos d’ordinateur au comptoir qui portaient une marque lisible (le nom d’un modèle d’ordinateur sous l’écran, un logo sur le couvercle, les icônes d’un système sur l’écran) ou qui venaient du compte d’un éditeur de caisse montrant son propre logiciel.
+
+| Fichier | Où | Ce qu’on voit | Auteur | Profil | Page | Source | Licence |
+|---|---|---|---|---|---|---|---|
+| `ia-patron-comptoir.webp` | photo du hero | Un homme aux cheveux bouclés, de profil, tape sur un ordinateur portable posé sur un comptoir sombre liseré d’orange ; derrière lui, un vase de fleurs blanches et des étagères de bouteilles éclairées d’une lumière chaude — publiée le 09/07/2025, lieu non renseigné ; entière, réduite à 1 600 × 2 400 | Maks Styazhkin | https://unsplash.com/@mstyazhkin | https://unsplash.com/photos/UCDcAY0xqkw | https://images.unsplash.com/photo-1752041798513-4151bd0bcba8 | Unsplash |
+
+Empreintes SHA-256 des fichiers servis :
+
+- `ia-patron-comptoir.webp` : `a733472bc1e3465394336059bf2b73975a8183b641bbb20ea1b18308905c93cd`
+<!-- ia:fin -->
