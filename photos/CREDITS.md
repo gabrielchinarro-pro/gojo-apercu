@@ -171,3 +171,69 @@ Empreintes SHA-256 des fichiers servis :
 - `calendrier-melee.webp` : `0dc3a11f4a81d88f4dfa81e812b8999f5b4dc88a787b33e6529cff2ed40e0415`
 - `calendrier-table-du-soir.webp` : `afeb9e9039f868849d6c56c7f47fba4e1fd39a18a7c8cfdac3a0adba615395ab`
 <!-- calendrier:fin -->
+
+<!-- bars:debut -->
+## La page bars et pubs (28/09/2026)
+
+Trois photos nouvelles pour la page `/bars-et-pubs` : un pub plein un soir de match pour la scène du hero, une pression qui se tire au comptoir pour le visuel « le soir du match, côté comptoir », et une salle aux tables vides pour les soirs creux. **Aucune image générée.** Licence vérifiée sur la page de chaque photo le 28/09/2026 : **licence Unsplash** pour les deux premières (aucune n'est une photo Unsplash+ : le lien public `images.unsplash.com` les sert), **licence Pexels** pour la troisième. Aucune des trois n'était déjà présente sur le site. Rapatriées une fois, recadrées ou floutées pour qu'**aucune marque, aucun club ni aucune enseigne ne se lise**, réencodées en WebP (qualité 78, 1 800 px de large), servies en local par `next/image`. Écartées pour la même raison : un bar sportif aux écrans pleins de logos, des supporters en maillots de marque, un comptoir couvert d'enseignes de bière.
+
+| Fichier | Où | Ce qu'on voit | Auteur | Profil | Page | Source | Licence |
+|---|---|---|---|---|---|---|---|
+| `bars-pub-soir-de-match.webp` | scène du hero | Un pub plein, le soir d'un match de football : des clients debout de dos, deux hommes assis au comptoir devant les bouteilles, l'écran du match à droite, à Iași (Roumanie) — publiée le 16/05/2022 ; 1 800 × 2 700 ; floutés : le logo d'un col et les écussons d'une manche de maillot, un maillot encadré au mur | Matei Pruteanu | https://unsplash.com/@mateipruteanu | https://unsplash.com/photos/55XvplwCLcU | https://images.unsplash.com/photo-1652722113635-fadb67802142 | Unsplash |
+| `bars-comptoir-pression.webp` | le soir du match, côté comptoir (fond) | Au comptoir, une serveuse tire une pression, devant une rangée de verres retournés et des clients attablés — publiée le 19/04/2019 ; 1 800 × 1 200 ; floutés : le logo d'une brasserie sur le verre qui se remplit, l'étiquette d'une tireuse, la marque imprimée sur les verres retournés | Louis Hansel | https://unsplash.com/@louishansel | https://unsplash.com/photos/WCm4dFvZnMM | https://images.unsplash.com/photo-1555658636-6e4a36218be7 | Unsplash |
+| `bars-salle-vide.webp` | les soirs creux | Un pub le soir, ses tables en bois et ses chaises vides devant une banquette, à Istanbul ; recadrée sur le bas de la photo (le haut portait un maillot de club encadré, un panneau de rue d'un stade, des enseignes de bière et de whisky), 1 800 × 1 101 ; floutés : trois chevalets de table | Okan Yaşar | https://www.pexels.com/@okan-yasar-2147804619/ | https://www.pexels.com/photo/cozy-pub-interior-with-vintage-decor-in-istanbul-29844871/ | https://images.pexels.com/photos/29844871/pexels-photo-29844871.jpeg | Pexels |
+
+Empreintes SHA-256 des fichiers servis :
+
+- `bars-pub-soir-de-match.webp` : `f074a24ece3bb279ca4e2f5fae05d38c284184816017aa3404cd166d83115c66`
+- `bars-comptoir-pression.webp` : `79ccf6230b60c862c1a966f75014311e14febe41f4979a858250ae6ec30daba3`
+- `bars-salle-vide.webp` : `61589809be2b96cdc6e5bd05122af4bc2c3553c1b762564c4fc99b4e69f9b95e`
+<!-- bars:fin -->
+
+<!-- restaurants:debut -->
+## La page restaurants (28/09/2026)
+
+Une photo nouvelle pour le hero de la page `/restaurants` : une longue table de restaurant le soir, des convives attablés à la bougie — le service assis que la page raconte. **Aucune image générée.** Licence vérifiée sur la page de la photo le 28/09/2026 : **licence Unsplash** (ce n'est pas une photo Unsplash+ : le lien public `images.unsplash.com` la sert). Rapatriée une fois, deux affichettes du fond floutées pour qu'**aucun nom d'enseigne ne se lise**, réencodée en WebP (qualité 78), servie en local par `next/image`. Le reste de la page est dessiné (le plan de salle) ou reprend les logos de `public/logos/`.
+
+| Fichier | Où | Ce qu'on voit | Auteur | Profil | Page | Source | Licence |
+|---|---|---|---|---|---|---|---|
+| `restaurants-diner-aux-chandelles.webp` | scène du hero | Des amis dînent à une longue table en bois, à la lueur des bougies, sous des suspensions en tissu, dans un restaurant aux grandes baies vitrées — publiée le 13/05/2026 ; deux affichettes accrochées au fond (à gauche et derrière les convives de droite) floutées ; l'ardoise du menu, écrite à la main, ne porte aucun nom ; redimensionnée de 6 240 × 4 160 à 1 800 × 1 200, sans recadrage | Romain Gal | https://unsplash.com/@wamstudio | https://unsplash.com/photos/UEjjO-aJtZ8 | https://images.unsplash.com/photo-1778694277039-5cbf0b9a1fcf | Unsplash |
+
+Empreinte SHA-256 du fichier servi :
+
+- `restaurants-diner-aux-chandelles.webp` : `123750528a8ef34b421dd8f9a6133b4b36dac3824364860c643e09bcfdbe592b`
+<!-- restaurants:fin -->
+
+<!-- halles:debut -->
+## La page halles et lieux de vie (28/09/2026)
+
+Deux photos nouvelles pour la page `/halles-et-lieux-de-vie`. La première, sous la scène du hero : une halle gourmande pleine, attablée sous des rampes de lumière chaude. **Aucune image générée.** Licence vérifiée sur la page de la photo le 28/09/2026 : **licence Unsplash** (ce n'est pas une photo Unsplash+ : le lien public `images.unsplash.com` la sert). Elle n'était pas déjà présente sur le site. Rapatriée une fois, recadrée, réencodée en WebP (qualité 78, 1 800 × 1 080), servie en local par `next/image`. La section « La programmation se tient d'avance » a sa propre photo, elle aussi nouvelle sur le site (`halles-tables-du-marche.webp`, plus bas) : aucune photo de la page n'est servie ailleurs. Sa licence aussi est vérifiée le 28/09/2026 : **licence Unsplash**, ni Unsplash+ ni photo premium (l'API publique d'Unsplash le dit, et `images.unsplash.com` la sert). Aucun nom de personne ne s'y lit.
+
+**Aucune enseigne, aucune marque ni aucun nom ne s'y lit** : la photo, en portrait, est recadrée en paysage sur l'allée des tables, sous les enseignes des stands (le nom d'un stand, celui d'un bar à jus et d'un poissonnier, un panneau de sortie, la fenêtre du fond) ; au-dessus des dernières tables (une canette de soda) ; et floutées : l'ardoise d'un menu et un panneau en haut à droite, le texte d'une poubelle de tri, le logo d'une doudoune, l'imprimé d'un t-shirt et celui d'un sweat. Selon Unsplash, la photo a été prise au Granville Island Public Market, à Vancouver (Canada) ; les décorations sont celles de Noël. Des clients attablés à mi-distance ont le visage net dans la scène ; aucun nom ne se lit, et aucune personne n'est nommée.
+
+| Fichier | Où | Ce qu'on voit | Auteur | Profil | Page | Source | Licence |
+|---|---|---|---|---|---|---|---|
+| `halles-food-hall-soir.webp` | scène du hero | Le Granville Island Public Market, à Vancouver : une halle gourmande pleine, vue d'une coursive : des tables rondes occupées entre deux rampes de spots, sous une guirlande, derrière un bandeau rayé rouge et blanc — publiée le 09/12/2025 ; recadrée en paysage (4 251 × 2 551 de la source 5 000 × 7 728, réduite à 1 800 × 1 080) et floutée par endroits (voir plus haut) | Dmitry Spravko | https://unsplash.com/@kaprion | https://unsplash.com/photos/-uANJzrmLeA | https://images.unsplash.com/photo-1765242361225-b964d8ca7531 | Unsplash |
+| `halles-tables-du-marche.webp` | « La programmation se tient d'avance » | Une halle couverte de Melbourne (Australie), selon Unsplash — ses panneaux « L Shed » sont ceux du Queen Victoria Market — : ses longues tables pleines de convives sous la charpente de fer — publiée le 12/10/2019 ; recadrée au carré (2 565 × 2 565 de la source 4 898 × 3 265, réduite à 1 200 × 1 200) et floutée sur les panneaux suspendus où se lisaient un logo, un plan des allées et des enseignes | Katie Jowett | https://unsplash.com/@katieannejowett | https://unsplash.com/photos/MsP5uHCQNW0 | https://images.unsplash.com/photo-1570870401017-636b7fafa8a1 | Unsplash |
+
+Empreintes SHA-256 des fichiers servis :
+
+- `halles-food-hall-soir.webp` : `4af6f06954e95f0f51684033dd25840ad3405d85e4c9be1716fdfac4e979c259`
+- `halles-tables-du-marche.webp` : `bb1527609ba5038b966d25da7a69f1923be709a2ad64ed71f571a2f35743244b`
+<!-- halles:fin -->
+
+<!-- reseaux:debut -->
+## La page réseaux et groupes (28/09/2026)
+
+Une photo nouvelle pour la page `/reseaux-et-groupes` refaite au soin de `/football` : une terrasse sous les guirlandes, un soir en ville, sous l’affiche en verre du hero (la soirée du réseau, prête à Lille, à Lyon et à Nantes). **Aucune image générée.** Licence vérifiée sur la page de la photo le 28/09/2026 : **licence Unsplash** (ce n’est pas une photo Unsplash+ : le lien public `images.unsplash.com` la sert). Elle n’était pas déjà présente sur le site ; `lieux-place-dijon.webp`, la place de la carte « réseau » de la home, n’est pas reprise.
+
+Rapatriée une fois, réencodée en WebP (qualité 78, 1 800 × 1 277), servie en local par `next/image`. **Aucun nom de club, de marque, d’enseigne ni de personne ne s’y lit** : aucune enseigne dans le cadre, et l’ardoise du bord droit est floue à la prise de vue (85 mm, f/1,8), sans un mot lisible ; aucun recadrage ni flou ajouté. Elle a été choisie contre d’autres rues du soir qui portaient toutes une enseigne lisible (un bar-restaurant sur une rue pavée, un café parisien sous ses parasols, un pub, une rue commerçante pleine d’enseignes) ; celle du café parisien portait en plus, dans sa description, une réserve d’usage non commercial.
+
+| Fichier | Où | Ce qu’on voit | Auteur | Profil | Page | Source | Licence |
+|---|---|---|---|---|---|---|---|
+| `reseaux-terrasse-soir.webp` | affiche du hero | Le soir, une terrasse sous des rideaux de guirlandes lumineuses : des clients attablés devant des verres et des bougies, d’autres qui passent sur le pavé mouillé d’une rue — publiée le 31/10/2022, lieu non renseigné ; entière, 1 800 × 1 277 | Elric Pxl | https://unsplash.com/@elricpxl | https://unsplash.com/photos/JBuuTzJ0W4Y | https://images.unsplash.com/photo-1667256058569-ef0bb5140470 | Unsplash |
+
+Empreintes SHA-256 des fichiers servis :
+
+- `reseaux-terrasse-soir.webp` : `f6d0eaf1a6ce914b804578f79490e5bb971cc745e039f06fdf005806bc632195`
+<!-- reseaux:fin -->
