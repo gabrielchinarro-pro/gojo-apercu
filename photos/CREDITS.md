@@ -1,8 +1,8 @@
 # Crédits photos
 
-Les photos proviennent d'Unsplash, sauf celle de la Halle Biltoki (photo Gojo, ci-dessous) et deux photos
-de Pexels (types de lieux, plus bas), et sont servies en local depuis `public/photos/`. Le site n'appelle
-aucune ressource distante.
+Les photos proviennent d'Unsplash et de Pexels, sauf celle de la Halle Biltoki (photo Gojo, ci-dessous) et
+trois photos de Wikimedia Commons sous licence CC0 (lot `pages-ressources`, 29/09/2026 : `/cas-clients` et
+`/actualites`), et sont servies en local depuis `public/photos/`. Le site n'appelle aucune ressource distante.
 
 | Fichier | Auteur | Profil Unsplash | Source |
 |---|---|---|---|
@@ -351,3 +351,141 @@ Empreintes SHA-256 des fichiers servis :
 - `integration-google-agenda.webp` : `3912360821df1850955b6bb91c4fcc42752ae04617c59e6cd3b5b0b5c4f3b148`
 - `integration-calendly.webp` : `a791ccf28a9affc713d65bef72333ba200f37a46931e61ca7877c3a5becb356c`
 <!-- connecteurs:fin -->
+
+<!-- comment:debut -->
+## La page Comment ça marche (29/09/2026)
+
+Deux photos nouvelles pour `/comment-ca-marche`. **Aucune image générée.** Licence vérifiée le 29/09/2026 sur les données de la page de chaque photo (l’API publique d’Unsplash, `napi/photos/<id>` : `premium: false`, `plus: false`) : **licence Unsplash** pour les deux. Aucune n’était déjà présente sur le site, et aucune n’apparaît deux fois. Rapatriées une fois depuis `images.unsplash.com`, retouchées pour qu’**aucune marque, enseigne, écran lisible ni nom** ne se lise (le détail est dans chaque ligne), redimensionnées sans recadrage (1 800 px de large, 1 600 pour un portrait), réencodées en WebP (qualité 78, sans métadonnées), servies en local par `next/image`.
+
+| Fichier | Où | Ce qu’on voit | Auteur | Profil | Page | Source | Licence |
+|---|---|---|---|---|---|---|---|
+| `comment-salle-qui-joue.webp` | hero de /comment-ca-marche | Dans un pub aux boiseries sombres et aux globes de verre, un homme chauve assis au comptoir regarde son téléphone devant une pinte, une femme blonde penchée à côté de lui, un client en chemise à carreaux au fond ; publiée le 21 mai 2026, 5 461 × 8 192 à l’origine, servie en 1 600 × 2 400 ; retouches : l’écran du téléphone, le seau et le verre à la marque de bière, l’ardoise du menu, les étiquettes des bouteilles, deux enseignes et les inscriptions du miroir floutés dans leurs seules limites | Jonathan Borba | https://unsplash.com/@jonathanborba | https://unsplash.com/photos/z61EIAsMAS0 | https://images.unsplash.com/photo-1779372178514-f3ca59768ad8 | Licence Unsplash |
+| `comment-tournee-servie.webp` | section « Le soir même » de /comment-ca-marche | Dans un bar sombre, une serveuse souriante tend un verre de bière à un client attablé en chemise bleue, deux autres verres sur son plateau, face à un second client qui sourit, en fauteuil roulant ; publiée le 1er octobre 2019, 3 600 × 2 325 à l’origine, servie en 1 800 × 1 163 ; retouches : l’écran de télévision (nom d’une marque), deux affiches, une canette, les étiquettes des bouteilles, un diplôme, le motif du t-shirt et les autocollants du fauteuil floutés dans leurs seules limites — le visage de la serveuse reste net | Elevate | https://unsplash.com/@elevatebeer | https://unsplash.com/photos/IEk05I-Is5A | https://images.unsplash.com/photo-1569937714610-ecd60826aa57 | Licence Unsplash |
+
+Empreintes SHA-256 des fichiers servis :
+
+- `comment-salle-qui-joue.webp` : `5ec71bc1afe13d12a4a3241e1517c56c24dcae6ce657280ded6006c5cf248bd1`
+- `comment-tournee-servie.webp` : `454c07b0e68d5d9ec5032cfcef2b247ec067959eb669d4aa2e1602061f99717e`
+<!-- comment:fin -->
+
+<!-- tarifs:debut -->
+## La page Tarifs (29/09/2026)
+
+Deux photos nouvelles pour `/tarifs`. **Aucune image générée.** Licence vérifiée le 29/09/2026 sur les données de la page de chaque photo (l’API publique d’Unsplash, `napi/photos/<id>` : `premium: false`, `plus: false`) : **licence Unsplash** pour les deux. Aucune n’était déjà présente sur le site, et aucune n’apparaît deux fois. Même traitement que ci-dessus ; la page ne portant aucun prix, **les ardoises et les prix affichés sont floutés en entier**.
+
+| Fichier | Où | Ce qu’on voit | Auteur | Profil | Page | Source | Licence |
+|---|---|---|---|---|---|---|---|
+| `tarifs-patron-comptoir.webp` | hero de /tarifs | Derrière le comptoir d’un café, un homme en casquette et chemise en jean réfléchit, la main au menton, à côté de sa caisse, d’une pile d’assiettes et de bocaux, une suspension allumée, des fleurs floues au premier plan ; publiée le 2 mars 2019, 4 950 × 3 456 à l’origine, servie en 1 800 × 1 257 ; retouches : les deux grandes ardoises du menu, le tableau des prix, les étiquettes des bouteilles, le logo de la casquette, les livres de l’étagère, l’enseigne de la vitrine et les devantures de la rue floutés dans leurs seules limites | Louis Hansel | https://unsplash.com/@louishansel | https://unsplash.com/photos/qbC9hh0aRiY | https://images.unsplash.com/photo-1551529563-fce9529e67ac | Licence Unsplash |
+| `tarifs-rappel-telephone.webp` | section « Comment le tarif se fixe » de /tarifs | Le soir, dans un café aux lampes en forme de tulipes, un homme en pull sombre téléphone, accoudé à une table de granit, une tasse devant lui ; publiée le 24 août 2019, 5 616 × 3 744 à l’origine, servie en 1 800 × 1 200 ; retouches : le nom du café sur la tasse, le chevalet du menu, le papier imprimé de la table et la lettre de l’enseigne de la vitrine floutés dans leurs seules limites | Markus Petritz | https://unsplash.com/@petritz | https://unsplash.com/photos/WOEbDoWcTTQ | https://images.unsplash.com/photo-1566651787053-7574c08b1a9f | Licence Unsplash |
+
+Empreintes SHA-256 des fichiers servis :
+
+- `tarifs-patron-comptoir.webp` : `87175f33794fe4db98526de52873a54b9d81790754c3d24045627bc6f6e3c66d`
+- `tarifs-rappel-telephone.webp` : `16c7206cf39dee281fa42958c8c55110c23feb0d1eabb66fb7ffd1f098820436`
+<!-- tarifs:fin -->
+
+<!-- cas:debut -->
+## La page des cas clients (29/09/2026)
+
+Unsplash refusait ce jour-là toute requête scriptée (page anti-robot « Making sure you’re not a bot! », y compris sur `napi/search`), et Pexels répondait 403 : **la photo vient de Wikimedia Commons, sous licence CC0** (domaine public, usage commercial permis, attribution non obligatoire, créditée ici quand même), vérifiée le 29/09/2026 sur les métadonnées de la page du fichier (API `commons.wikimedia.org/w/api.php`, `imageinfo`, `LicenseShortName: CC0`). Aucune image générée, aucune déjà présente sur le site, aucune deux fois. Redimensionnée sans recadrage (1 800 px de large), réencodée en WebP (qualité 78, sans métadonnées), servie en local par `next/image`. Les zones floutées le sont dans leurs seules limites, à bords adoucis.
+
+| Fichier | Où | Ce qu’on voit | Auteur | Profil | Page | Source | Licence |
+|---|---|---|---|---|---|---|---|
+| `cas-foule-jour-de-match.webp` | hero de /cas-clients, sous le verre (dite « Photo d’illustration, prise hors du réseau Gojo. ») | Une foule de supporters, de dos, dont plusieurs en maillot à damier rouge et blanc, face à un écran géant dressé sur une grande place, devant le beffroi d’un hôtel de ville, sous un ciel d’orage (fan zone de Lens, Euro 2016, 25/06/2016) ; 5 312 × 2 988 à l’origine, servie en 1 800 × 1 012 ; retouches : l’écran géant et son bandeau, les bannières et oriflammes de la compétition, les panneaux de la fan zone, la bannière de gauche et le visage d’un jeune garçon floutés ; puis, le 29/09/2026 (verdict Némésis M3 et m4), le lettrage de la compétition sous l’écran, la tente et le logo d’une marque de bière, un drapeau de marque de soda, un panneau de tri, deux enseignes de boutique, une oriflamme écrite, le nom brodé au col de deux maillots, le nom imprimé sur un bob, un nom et un sigle au dos de deux maillots et le sigle d’un sac floutés | Supporterhéninois | https://commons.wikimedia.org/wiki/User:Supporterh%C3%A9ninois | https://commons.wikimedia.org/wiki/File:Fan_zone_Lens_Suisse-Pologne_Euro_2016_25-06-2016_5.jpg | https://upload.wikimedia.org/wikipedia/commons/c/c2/Fan_zone_Lens_Suisse-Pologne_Euro_2016_25-06-2016_5.jpg | CC0 1.0 |
+
+Empreinte SHA-256 du fichier servi :
+
+- `cas-foule-jour-de-match.webp` : `f659e4e3d1140bcd7ffa693b329355dec6c8733831e73125c809ffefbe32d8b4` (depuis le 29/09/2026 ; la retouche est rejouée depuis l’original de Commons, les zones d’avant comprises, et non reprise sur le fichier déjà servi ; le fichier s’appelait `cas-salle-match.webp`, et prend le nom de ce qu’il montre : une foule, un jour de match)
+
+Le 29/09/2026, une photo plus juste a été cherchée (une salle de bar pleine, un soir de match), aux mêmes règles (Unsplash et Pexels fermés aux requêtes scriptées ce jour-là ; Commons en CC0 ou domaine public, auteur et téléverseur confondus). La seule approchante, des supporters attablés au bar d’un stade un soir de match, portait les panneaux de ses annonceurs, l’écran du stade, plusieurs visages d’adultes en gros plan et un enfant : elle n’a pas été retenue. La photo reste, et le verre du hero dit maintenant ce qu’elle montre (`docs/pages/WORDING.md`, balise `cas`).
+
+La page du cas Biltoki (`/cas-clients/biltoki-rueil`) n’ajoute aucune photo : elle porte la photo Gojo de la Halle (plus haut), en grand dès le hero.
+<!-- cas:fin -->
+
+<!-- biltoki:debut -->
+<!-- biltoki:fin -->
+
+<!-- guides:debut -->
+## La page `/guides` (29/09/2026)
+
+Deux photos nouvelles : sous le verre du hero, et dans la carte du guide à la une. Licence vérifiée le 29/09/2026 sur les données de la page de chaque photo (l’API publique d’Unsplash, `napi/photos/<id>` : `premium: false`, `plus: false`) : **licence Unsplash**, aucune n’est une photo Unsplash+. **Aucune image générée.** Aucune n’était déjà présente sur le site (identifiants comparés à ce fichier), aucune n’apparaît deux fois. Rapatriées une fois depuis `images.unsplash.com` (2 400 px de large), retouchées pour qu’**aucune marque, enseigne, écran lisible ni écriture** ne se lise (flou gaussien aux bords adoucis, dans les seules limites de chaque zone ; le détail est dans chaque ligne), redimensionnées sans recadrage (1 800 px de large, 1 600 pour un portrait), réencodées en WebP (qualité 78, sans métadonnées), servies en local par `next/image`.
+
+| Fichier | Où | Ce qu’on voit | Auteur | Profil | Page | Source | Licence |
+|---|---|---|---|---|---|---|---|
+| `guides-carnet.webp` | hero de /guides | Un homme en chemise beige, attablé dans un restaurant aux murs rouges sous des suspensions noires, écrit en souriant dans un carnet ouvert, d’autres clients flous au fond ; publiée le 2 novembre 2025, 3 043 × 4 564 à l’origine, servie en 1 600 × 2 400 ; retouches : marque brodée sur la manche, cadran de la montre et écriture du carnet floutés dans leurs seules limites | abolfazl babaei | https://unsplash.com/@aban_pics | https://unsplash.com/photos/Vly9nBcPPbo | https://images.unsplash.com/photo-1762066436744-1e82c76a0c96 | Licence Unsplash |
+| `guides-salle-vue-haut.webp` | carte « à la une » de /guides | Une salle de bistrot vue de la mezzanine, derrière une rambarde : des tables rondes en marbre avec un petit carton plié sur chacune, des chaises de bistrot, des suspensions vertes, une cliente seule au comptoir avec son ordinateur ; publiée le 12 février 2026, 9 520 × 6 336 à l’origine, servie en 1 800 × 1 198 ; retouches : deux panneaux écrits du fond et les cinq cartons des tables floutés dans leurs seules limites | Adrien Olichon | https://unsplash.com/@adrienolichon | https://unsplash.com/photos/-ocJhUXqF-8 | https://images.unsplash.com/photo-1770909752798-e0972fc69ac7 | Licence Unsplash |
+
+Empreintes SHA-256 des fichiers servis :
+
+- `guides-carnet.webp` : `330f5a40ffc7e5c936744213c3ef219d6e5ac3d103ad98b50ac16d3266560259`
+- `guides-salle-vue-haut.webp` : `127f3ae3af00f589cea393d535351a807659817dfc6a608e9278b4759afcc1f2`
+<!-- guides:fin -->
+
+<!-- guide:debut -->
+## La page `/guides/preparer-sa-premiere-soiree` (29/09/2026)
+
+Une photo nouvelle, sous le verre du hero. Même vérification et même traitement que la page `/guides` ci-dessus.
+
+| Fichier | Où | Ce qu’on voit | Auteur | Profil | Page | Source | Licence |
+|---|---|---|---|---|---|---|---|
+| `guide-salle-du-soir.webp` | hero de /guides/preparer-sa-premiere-soiree | Le coin d’un bar le soir, presque vide : des tabourets hauts autour d’une table, une bougie allumée, des verres alignés sur le comptoir, la rue éclairée derrière la vitre ; publiée le 19 septembre 2021, 4 160 × 6 240 à l’origine, servie en 1 600 × 2 400 ; retouches : deux enseignes lumineuses de la rue, derrière la vitre, floutées dans leurs seules limites | Aleksey Cherenkevich | https://unsplash.com/@cherenkevich | https://unsplash.com/photos/uPP60n_hS7Y | https://images.unsplash.com/photo-1632089039714-3615e5dbca91 | Licence Unsplash |
+
+Empreinte SHA-256 du fichier servi :
+
+- `guide-salle-du-soir.webp` : `52578d755f14af5b025b4aeda6ba062cebb94dd824992a46519bdf73b3bba1f5`
+<!-- guide:fin -->
+
+<!-- actualites:debut -->
+## La page des actualités (29/09/2026)
+
+Unsplash refusait ce jour-là toute requête scriptée (page anti-robot « Making sure you’re not a bot! », y compris sur `napi/search`), et Pexels répondait 403 : **la photo vient de Wikimedia Commons, sous licence CC0** (domaine public, usage commercial permis, attribution non obligatoire, créditée ici quand même), vérifiée le 29/09/2026 sur les métadonnées de la page du fichier (API `commons.wikimedia.org/w/api.php`, `imageinfo`, `LicenseShortName: CC0`). Aucune image générée, aucune déjà présente sur le site, aucune deux fois. Redimensionnée sans recadrage (1 800 px de large), réencodée en WebP (qualité 78, sans métadonnées), servie en local par `next/image`. Les zones floutées le sont dans leurs seules limites, à bords adoucis.
+
+| Fichier | Où | Ce qu’on voit | Auteur | Profil | Page | Source | Licence |
+|---|---|---|---|---|---|---|---|
+| `actualites-bistrot-soir.webp` | hero de /actualites, sous le verre | La terrasse d’un bistrot, le soir, sous une marquise garnie de guirlandes lumineuses : des clients attablés en manteau, une petite voiture bleue garée devant, des immeubles de pierre au-dessus (Lyon, 16/02/2023) ; 3 377 × 2 761 à l’origine, servie en 1 800 × 1 472 ; retouches : l’enseigne lumineuse du bistrot, les deux enseignes d’hôtel, l’ardoise des boissons, le panneau des livraisons, un disque de stationnement et la plaque d’immatriculation floutés | Benoît Prieur | https://commons.wikimedia.org/wiki/User:Benoît_Prieur | https://commons.wikimedia.org/wiki/File:Bistrot_Jutard_(Lyon)_de_nuit_en_f%C3%A9vrier_2023.jpg | https://upload.wikimedia.org/wikipedia/commons/a/a8/Bistrot_Jutard_%28Lyon%29_de_nuit_en_f%C3%A9vrier_2023.jpg | CC0 1.0 |
+
+Empreinte SHA-256 du fichier servi :
+
+- `actualites-bistrot-soir.webp` : `0c8eb68b749794a80bd12c468db87e5e6ac5fedb46de1d69b0e6669f9e92cc7e`
+<!-- actualites:fin -->
+
+<!-- actualite:debut -->
+## L’article « Gojo est lancé depuis avril 2026 » (29/09/2026)
+
+**Photo remplacée le 29/09/2026** (verdict Némésis, B2) : l’article portait `actualite-bar-avant-service.webp`, un bar vide avant le service, tiré de Commons (« The Mind Palace Bar Interior »), mais fourni par l’établissement lui-même, sous une licence portée par un tiers, et dans un décor reconnaissable. Le fichier est retiré du dépôt avec sa ligne.
+
+Ce jour-là, Unsplash ne servait plus sa recherche aux requêtes scriptées (`napi/search` renvoie une redirection 307 vers sa page anti-robot, `/.within.website`), et Pexels répondait par une page anti-robot (« Just a moment... ») : aucune de ces protections n’a été contournée. **La photo vient de Wikimedia Commons, sous CC0**, et seulement parce que l’auteur est aussi celui qui l’a téléversée. Vérifié le 29/09/2026 par l’API de Commons (`commons.wikimedia.org/w/api.php`) :
+
+- `imageinfo`, métadonnées : `LicenseShortName: CC0`, `License: cc0`, `UsageTerms: Creative Commons Zero, Public Domain Dedication`, `Artist: Benoît Prieur`, `Credit: Own work`, `AttributionRequired: false`, `DateTimeOriginal: 2021-08-21 23:34:26`
+- `imageinfo`, historique complet des téléversements : une seule version, téléversée le 02/09/2021 par le compte `Benoît Prieur` (le même nom que l’auteur), 4 032 × 3 024, SHA-1 `0e351fed0b5d958e36132b3ae12d87cfb507a826`, identique au fichier rapatrié
+- le texte de la page du fichier : `Source = {{own}}`, `Author = {{Creator:Benoît Prieur}}`, licence `{{self|cc-zero}}`
+
+Ce qui n’a pas été vérifié : l’identité réelle du compte au-delà de ce que Commons affiche, et l’accord des personnes photographiées (des adultes, petits dans l’image, au fond de la salle ; aucun enfant). Aucune image générée, aucune déjà présente sur le site (identifiant absent de ce fichier, et image comparée, réduite à 32 × 32, à chaque photo du dossier `public/photos/`), aucune deux fois. Redimensionnée sans recadrage (1 800 px de large), retouchée pour qu’aucune écriture ni marque ne se lise (flou gaussien aux bords adoucis, dans les seules limites de chaque zone), réencodée en WebP (qualité 78, sans métadonnées), servie en local par `next/image`. La page le dit sous la photo : *Photo d’illustration, prise hors du réseau Gojo.*
+
+| Fichier | Où | Ce qu’on voit | Auteur | Profil | Page | Source | Licence |
+|---|---|---|---|---|---|---|---|
+| `actualite-salle-du-soir.webp` | haut de /actualites/lancement-avril-2026, et carte à la une de /actualites (dite « Photo d’illustration, prise hors du réseau Gojo. ») | La salle d’un bar, un soir d’été, pendant le service : des fauteuils de velours vert autour de tables en bois brut, des lignes de lumière au sol, des piliers de pierre, deux serveurs au fond près du comptoir, des clients attablés près des baies ouvertes sur la rue (Lyon, 21/08/2021, 23 h 34) ; 4 032 × 3 024 à l’origine, servie en 1 800 × 1 350 ; retouches : l’ardoise des bières, des prix et des plats (en quatre zones, autour des deux serveurs), un petit écran allumé à gauche, l’impression d’un t-shirt et d’une casquette, la carte des burgers et le terminal de paiement, une pastille collée sur la table du premier plan, un petit panneau et deux verres à droite floutés | Benoît Prieur | https://commons.wikimedia.org/wiki/User:Beno%C3%AEt_Prieur | https://commons.wikimedia.org/wiki/File:Int%C3%A9rieur_d%27un_bar_Rue_Puits_Gaillot_(Lyon)_en_ao%C3%BBt_2021.jpg | https://upload.wikimedia.org/wikipedia/commons/7/7c/Int%C3%A9rieur_d%27un_bar_Rue_Puits_Gaillot_%28Lyon%29_en_ao%C3%BBt_2021.jpg | CC0 1.0 |
+
+Empreinte SHA-256 du fichier servi :
+
+- `actualite-salle-du-soir.webp` : `be13f5d692ee7783b0957895d02e64109f4f917f6ed8ac2367b39a20d65ab685`
+
+L’article porte aussi la photo Gojo de la Halle Biltoki, en vignette (section « Testé en salle »). Le hero de `/actualites` porte, lui aussi, une photo de Benoît Prieur (la terrasse d’un bistrot de Lyon, plus haut) : ce sont deux photos différentes, chacune une seule fois sur le site.
+<!-- actualite:fin -->
+
+<!-- aide:debut -->
+## La page `/aide` (29/09/2026)
+
+Une photo nouvelle, sous le verre du hero. Licence vérifiée le 29/09/2026 sur les données de la page de chaque photo (l’API publique d’Unsplash, `napi/photos/<id>` : `premium: false`, `plus: false`) : **licence Unsplash**, aucune n’est une photo Unsplash+. **Aucune image générée.** Aucune n’était déjà présente sur le site (identifiants comparés à ce fichier), aucune n’apparaît deux fois. Rapatriées une fois depuis `images.unsplash.com` (2 400 px de large), retouchées pour qu’**aucune marque, enseigne, écran lisible ni écriture** ne se lise (flou gaussien aux bords adoucis, dans les seules limites de chaque zone ; le détail est dans chaque ligne), redimensionnées sans recadrage (1 800 px de large, 1 600 pour un portrait), réencodées en WebP (qualité 78, sans métadonnées), servies en local par `next/image`.
+
+| Fichier | Où | Ce qu’on voit | Auteur | Profil | Page | Source | Licence |
+|---|---|---|---|---|---|---|---|
+| `aide-comptoir-telephone.webp` | hero de /aide | Un homme aux bras tatoués, accoudé au comptoir d’un bar aux murs de brique, lit son téléphone sous une grande suspension noire ; une serveuse passe derrière lui, un client à lunettes noires au fond ; publiée le 5 juin 2019, 2 548 × 3 185 à l’origine, servie en 1 600 × 2 000 ; retouches : marque des deux distributeurs de serviettes et inscription du t-shirt de la serveuse floutées dans leurs seules limites | Steven Erixon | https://unsplash.com/@stevenerixon | https://unsplash.com/photos/mAhqHDtP_jc | https://images.unsplash.com/photo-1559756301-4c2d82874532 | Licence Unsplash |
+
+Empreinte SHA-256 du fichier servi :
+
+- `aide-comptoir-telephone.webp` : `7a3c2ed84797d0ee5f96b3495b1760a036ed16dea6fd9d69bd0a00a12c5ac07b`
+<!-- aide:fin -->
+
+<!-- legales:debut -->
+<!-- legales:fin -->
